@@ -1,0 +1,180 @@
+.box-drugoe1 {
+    width: 1320px;
+    height: 521px;
+
+    background: #6A4AC6;
+    border: 5px solid #9E7FDE;
+    position: relative;
+}
+.box-drugoe2 {
+    width: 1320px;
+    height: 521px;
+
+    background: #71C863;
+    border: 5px solid #A0EF93;
+    position: relative;
+}
+.box-drugoe3 {
+    width: 1320px;
+    height: 521px;
+
+    background: #C86F63;
+    border: 5px solid #FFA99E;
+    position: relative;
+}
+.nav-drugoe {
+    display: flex;
+}
+.drugoe-text {
+    font-family: 'Minecraft-Five';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 51px;
+    margin-top: 53px;
+    margin-left: 81px;
+}
+.drugoe-text2 a {
+    font-family: 'Minecraft-Five';
+}
+.main-drugoe {
+    display: flex;
+}
+.main-drugoe img {
+    padding-top: 38px;
+}
+.drugoe-text2 {
+    font-family: 'IntroBold';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+
+    margin-top: 102px;
+    margin-left: 81px;
+}
+.drugoe-li-left {
+    font-family: 'Minecraft-Five';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+
+    margin-top: 62px;
+    margin-left: 200px;
+}
+.drugoe-li-right {
+    font-family: 'Minecraft-Five';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    
+    margin-top: 62px;
+    margin-left: 20px;
+}
+.drugoe-nav1 {
+    font-family: 'IntroDemo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+
+    margin-top: 67px;
+    margin-left: 20px;
+    
+}
+.drugoe-nav2 {
+    font-family: 'IntroDemo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+
+    width: 147px;
+    height: 34px;
+
+    
+
+    margin-top: 67px;
+    margin-left: 39px;
+}
+.active-drugoe {
+    
+    margin-top: 62px;
+}
+.active-3 {
+    background: rgba(84, 84, 84, 0.44);
+    border: 3px solid #FFFFFF;
+    margin-top: 64px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+.active-2 {
+    background: rgba(84, 84, 84, 0.44);
+    border: 3px solid #FFFFFF;
+    margin-top: 64px !important;
+}
+.active-1 {
+    background: rgba(84, 84, 84, 0.44);
+    border: 3px solid #FFFFFF;
+    margin-top: 64px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    line-height: 35px !important;
+}
+.drugoe-nav3 {
+    font-family: 'IntroDemo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+
+    margin-top: 67px;
+    margin-left: 39px;
+}
+.logo1-b {
+    position: absolute;
+
+    background-color: #3A3546;
+    margin-top: 0;
+    width: 36px;
+    height: 36px;
+    right: 0px;
+    top: 0px;
+}
+.logo2-b {
+    position: absolute;
+
+    background-color: #3A3546;
+    margin-top: 0;
+    width: 36px;
+    height: 36px;
+    top: 0px;
+    left: 0px;
+}
+.logo3-b {
+    position: absolute;
+    margin-top: 0;
+    background-color: #3A3546;
+
+    width: 36px;
+    height: 36px;
+
+    bottom: 0px;
+    left: 0px;
+}
+.logo4-b {
+    position: absolute;
+    margin-top: 0;
+    background-color: #3A3546;
+
+    width: 36px;
+    height: 36px;
+
+    right: 0px;
+    bottom: 0px;
+}

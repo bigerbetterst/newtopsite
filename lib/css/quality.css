@@ -1,0 +1,354 @@
+.quality {
+    padding-bottom: 0px;
+    background-color: #3A3546;
+    min-height: 900px;
+    position: relative;
+}
+
+.quality-heading {
+
+    font-family: 'Minecraft';
+    padding-bottom: 50px;
+    font-size: 46px;
+    line-height: 62px;
+
+    text-align: center;
+}
+
+.quality-content {
+    max-width: 1570px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.online {
+    background: #4ABEC6;
+    border: 7px solid rgba(255, 255, 255, 0.5);
+    border-image-slice: 40 fill;
+    padding-top: 56px;
+    padding-right: 90px;
+    padding-left: 0px;
+}
+.online-mobile {
+    background: #4ABEC6;
+    border: 4px solid rgba(255, 255, 255, 0.5);
+    border-radius: 2px;
+    padding-top: 56px;
+    padding-right: 90px;
+    padding-left: 0px;
+}
+.online-heading {
+    font-size: 30px;
+    line-height: 45px;
+    text-align: right;
+    
+    color: #FFFFFF;
+}
+
+.online-heading + * {
+    margin-top: 30px;
+}
+
+.online-text {
+    font-family: 'IntroDemo';
+    max-width: 400px;
+    font-weight: 400;
+    line-height: 113.5%;
+    font-size: 24px;
+    text-align: right;
+}
+
+.online-text + * {
+    margin-top: 61px;
+}
+.online-text-mobile {
+    font-family: 'IntroDemo';
+    font-weight: 400;
+    line-height: 113.5%;
+    font-size: 28px;
+    text-align: right;
+}
+
+.online-text-mobile + * {
+    margin-top: 61px;
+}
+.tps {
+    border-radius: 2px;
+    background: #EEC485;
+    border: 7px solid rgba(255, 255, 255, 0.5);
+    padding-top: 56px;
+    padding-right: 42px;
+    padding-left: 218px;
+}
+.tps-mobile {
+    border-radius: 2px;
+    background: #EEC485;
+    border: 4px solid rgba(255, 255, 255, 0.5);
+    padding-top: 56px;
+    padding-right: 332px;
+}
+
+.tps-heading {
+    font-size: 30px;
+    line-height: 45px;
+    text-align: left;
+
+    color: #FFFFFF;
+}
+
+.tps-heading + * {
+    margin-top: 30px;
+}
+
+.tps-text {
+    font-family: 'IntroDemo';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 113.5%;
+    text-align: left;
+}
+
+.tps-text + * {
+    margin-top: 61px;
+}
+.tps-text-mobile {
+    font-family: 'IntroDemo';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 113.5%;
+    text-align: left;
+}
+
+.tps-text-mobile + * {
+    margin-top: 61px;
+}
+.ivents {
+    border-radius: 2px;
+    background: #71C863;
+    border: 7px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 56px;
+    /* padding-right: 200px;
+    padding-left: 500px; */
+}
+.ivents-mobile {
+    border-radius: 2px;
+    background: #71C863;
+    border: 4px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 56px;
+    /* padding-right: 200px;
+    padding-left: 500px; */
+}
+.ivents-heading {
+    font-size: 37px;
+    line-height: 4px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.ivents-heading + * {
+    margin-top: 76px;
+}
+
+.ivents-text {
+    font-family: 'IntroDemo';
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.ivents-text + * {
+    margin-top: 61px;
+}
+.ivents-text-mobile {
+    font-family: 'IntroDemo';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.ivents-text-mobile + * {
+    margin-top: 61px;
+}
+.bg-alex {
+    float: left;
+    position: absolute;
+    top: -178px;
+    left: -87px;
+}
+
+.bg-alex img {
+    max-height: 460px;
+}
+
+.bg-lava {
+    float: left;
+    position: absolute;
+    top: 0px;
+    left: -42px;
+}
+.bg-lava img {
+    max-height: 282px;
+}
+.bg-lava-mobile {
+    float: right;
+    position: absolute;
+    top: -26px;
+    right: 0px;
+}
+.bg-lava-mobile img {
+    max-height: 310px;
+}
+.bg-villagerr {
+    float: left;
+    position: absolute;
+    top: -116px;
+    left: -32px;
+}
+.bg-villagerr img {
+    max-height: 405px;
+}
+
+.box1 {
+    grid-column: 1;
+    grid-row: 1;
+    padding-left: 260px;
+
+    max-width: max-content;
+    position: relative;
+    height: 288px;
+    background-color: #4ABEC6;
+}
+.box1-mobile {
+    grid-column: 1;
+    grid-row: 1;
+    padding-left: 260px;
+    max-width: 800px;
+    position: relative;
+    height: 288px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: #4ABEC6;
+}
+.box2 {
+    grid-column: 2;
+    grid-row: 1;
+    width: 530px;
+    max-width: max-content;
+    height: 288px;
+    position: relative;
+    padding-left: 188px;
+    background: #ECA25D;
+}
+.box2-mobile {
+    grid-column: 2;
+    grid-row: 1;
+    max-width: 800px;
+    height: 288px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-left: 90px;
+    background: #ECA25D;
+}
+.box3 {
+    grid-column: 1 / -1;
+    grid-row: 4;
+    /* width: 1500px; */
+    
+    height: 295px;
+    position: relative;
+    padding-left: 400px;
+    background: #71C863;
+}
+.box3-mobile {
+    grid-column: 1 / -1;
+    grid-row: 4;
+    max-width: 800px;
+    
+    height: 295px;
+    margin: 0 auto;
+    position: relative;
+    background: #71C863;
+}
+ .wrapper {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      grid-template-rows: repeat(3, 100px);
+      grid-column-gap: 84px;
+      grid-row-gap: 1em;
+      
+}
+.wrapper-mobile {
+    display: none;
+}
+.borders-blue {
+    border-left: 6px solid #A4DEE2;
+    border-bottom: 6px solid #A4DEE2;
+    border-radius: 0px;
+}
+.borders-orange {
+    border-left: 6px solid #A4DEE2;
+    border-bottom: 6px solid #A4DEE2;
+    border-radius: 0px;
+}
+.logo1 {
+    position: absolute;
+
+    background-color: #3A3546;
+    margin-top: 0;
+    width: 24px;
+    height: 24px;
+    right: -7px;
+    top: -7px;
+}
+.logo2 {
+    position: absolute;
+
+    background-color: #3A3546;
+    margin-top: 0;
+    width: 24px;
+    height: 24px;
+    top: -7px;
+    left: -7px;
+}
+.logo3 {
+    position: absolute;
+    margin-top: 0;
+    background-color: #3A3546;
+
+    width: 24px;
+    height: 24px;
+
+    bottom: -7px;
+    left: -7px;
+}
+.logo4 {
+    position: absolute;
+    margin-top: 0;
+    background-color: #3A3546;
+
+    width: 24px;
+    height: 24px;
+
+    right: -7px;
+    bottom: -7px;
+}
+
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+
+}
+@media (max-width: 390px) {
+
+}

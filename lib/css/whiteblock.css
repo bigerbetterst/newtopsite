@@ -1,0 +1,51 @@
+.whiteblock {
+    padding-bottom: 0px;
+    min-height: 462px;
+    position: relative;
+    background-color: #3A3546;
+    background-image: url(../img/fonmain.svg);
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.whiteblock-content {
+    max-width: 1490px;
+
+}
+
+.whiteblock-heading {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 37px;
+
+    color: #3A3546;
+    text-align: center;
+    padding-top: 198px;
+}
+
+.whiteblock-text {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    padding-top: 22px;
+
+    color: #3A3546;
+}
+
+.whiteblock-bg-img {
+	position: absolute;
+	/* left: 0px;
+    top: -1px;
+    width: 100%; */
+}
+
+
+.whiteblock-bg-img img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}

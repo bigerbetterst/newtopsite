@@ -1,0 +1,75 @@
+.bank-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bank-svg svg {
+    position: relative;
+}
+.bank-svg h1 {
+    position: absolute;
+    z-index: 1;
+    top: 154px;
+    left: 54px;
+
+    font-family: 'Minecraft';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 53px;
+    line-height: 66px;
+}
+.bank-svg p {
+    position: absolute;
+    z-index: 1;
+    top: 237px;
+    left: 54px;
+
+    font-family: 'IntroDemo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 27px;
+}
+.bank-svg a {
+    position: absolute;
+    z-index: 1;
+    top: 357px;
+    left: 54px;
+
+    font-family: 'IntroDemo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 27px;
+}
+.bank-svg {
+    position: relative;
+}
+.btn-bank, a.btn-bank {
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #F79439;
+    border-radius: 0px;
+    height: 42px;
+    padding-right: 33px;
+    padding-left: 33px;
+    display: inline-block;
+    line-height: 32px;
+    border-top: 6px solid #FFBF73;
+    border-bottom: 6px solid #BF7620;
+    transition: border-top 0.1s ease, border-bottom 0.1s ease, background-color 0.2s ease;
+}
+.btn-bank:hover {
+    border-top: 6px solid #8A8A8A; 
+    border-bottom: 6px solid #414141;
+    background-color: #5F5F5F;
+    
+    color: #ffffff;
+}
+.btn-bank:active {
+    border-top: 8px solid #8A8A8A; 
+    border-bottom: 6px solid #414141;
+    background-color: #5F5F5F;
+    
+    color: #ffffff;
+}

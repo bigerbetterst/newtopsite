@@ -1,0 +1,188 @@
+.box-faq1 {
+    width: 1320px;
+    height: 521px;
+
+    background: #2F2E37;
+    border: 5px solid #62606F;
+    position: relative;
+}
+.nav-faq {
+    display: flex;
+}
+.accordion {
+
+}
+.accordion:hover{
+    cursor: pointer;
+}
+.accordion__answer {
+    display: none;
+} 
+.accordion.active .accordion__answer {
+    display: block;
+}
+.faq-text {
+    font-family: 'Minecraft-Five';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 51px;
+    margin-top: 53px;
+    margin-left: 81px;
+}
+.faq-text2 a {
+    font-family: 'IntroDemo';
+}
+.main-faq img {
+    position: absolute;
+    top: 46px;
+    right: 10px;
+}
+.faq-text1 {
+    font-family: 'IntroDemo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 31px;
+
+    position: relative;
+
+    margin-top: 50px;
+    margin-left: 81px;
+}
+.mini-box {
+    position: relative;
+}
+.faq-text2 {
+    font-family: 'IntroDemo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 31px;
+    
+
+    margin-top: 20px;
+    margin-left: 81px;
+}
+.faq-li-left {
+    font-family: 'Minecraft-Five';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+
+    margin-top: 62px;
+    margin-left: 200px;
+}
+.faq-li-right {
+    font-family: 'Minecraft-Five';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    
+    margin-top: 62px;
+    margin-left: 20px;
+}
+.faq-nav1 {
+    font-family: 'IntroDemo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+
+    margin-top: 67px;
+    margin-left: 20px;
+}
+.faq-nav2 {
+    font-family: 'IntroDemo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+
+    width: 147px;
+    height: 34px;
+
+    
+
+    margin-top: 67px;
+    margin-left: 39px;
+}
+.active-faq {
+    background: rgba(84, 84, 84, 0.44);
+    border: 3px solid #FFFFFF;
+    margin-top: 62px;
+}
+.faq-nav3 {
+    font-family: 'IntroDemo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 31px;
+    text-align: center;
+
+    margin-top: 67px;
+    margin-left: 39px;
+}
+.logo1-b {
+    position: absolute;
+
+    background-color: #3A3546;
+    margin-top: 0;
+    width: 36px;
+    height: 36px;
+    right: 0px;
+    top: 0px;
+}
+.logo2-b {
+    position: absolute;
+
+    background-color: #3A3546;
+    margin-top: 0;
+    width: 36px;
+    height: 36px;
+    top: 0px;
+    left: 0px;
+}
+.logo3-b {
+    position: absolute;
+    margin-top: 0;
+    background-color: #3A3546;
+
+    width: 36px;
+    height: 36px;
+
+    bottom: 0px;
+    left: 0px;
+}
+.logo4-b {
+    position: absolute;
+    margin-top: 0;
+    background-color: #3A3546;
+
+    width: 36px;
+    height: 36px;
+
+    right: 0px;
+    bottom: 0px;
+}
+.logo5-b {
+    position: absolute;
+    margin-top: 0;
+    width: 18px;
+    height: 18px;
+    background: #D9D9D9;
+    border: 3px solid #FAF9FD;
+    left: 50px;
+    bottom: 8px;
+}
+.tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
